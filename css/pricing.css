@@ -1,0 +1,146 @@
+:root {
+    --primary_bg_color: #1C1E53;
+    --secondary_bg_color: #F4F6FC;
+    /* --tertiary_bg_color: #F4F6FC; */
+    --white_bg_color: #ffffff;
+    --button_bg_color: #FCD980;
+
+    --light_text_color: #ffffff;
+    --dark_text_color: #282938;
+    --button_text_color: #1B1C2B;
+    --icon_color: #2405F2;
+
+    --summary_text_color: #282938;
+    --summary_font_size: 16px;
+    --summary_font_weight: 400;
+    --summary_line_hight: 28px;
+
+    --heading_font_size: 54px;
+    --heading_font_weight: 600;
+    --headimg_line_hight: 76px;
+
+    --title_font_size: 48px;
+    --title_font_weight: 600;
+    --title_line_hight: 64px;
+
+    --sub_title_font_size: 32px;
+    --sub_title_font_weight: 500;
+    --sub_title_line_hight: 48px;
+}
+
+/****************** plans part **********************/
+#plansPart{
+    padding: 128px 0;
+    background-color: var(--white_bg_color);
+}
+.plansTop{
+    margin-bottom: 64px;
+}
+.plansTop__title{
+    font-size: var(--title_font_size);
+    font-weight: var(--title_font_weight);
+    color: var(--dark_text_color);
+    margin-bottom: 16px;
+}
+.plansTop__summary{
+    font-size: var(--summary_font_size);
+    font-weight: var(--summary_font_weight);
+    line-height: var(--summary_line_hight);
+    color: var(--summary_text_color);
+    max-width: 562px;
+}
+
+.plans{
+    padding: 64px 76px 62px 48px;
+    background-color: #F4F6FC;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 79px;
+    transition: all ease .5s;
+}
+.plans--last{
+    row-gap: 58px;
+}
+.plans--medle{
+    row-gap: 65px;
+}
+.plans:hover{
+    background-color: var(--primary_bg_color);
+    color: var(--light_text_color);
+    transform: scale(1.03);
+}
+.plans:hover .plansDetailsPrice__number{
+    color: var(--light_text_color);
+}
+.plans:hover .plansDetailsPrice__design{
+    color: var(--button_bg_color);
+}
+.plans:hover .plansItem h5{
+    color: var(--light_text_color);
+}
+.plans:hover .plansDetails__name{
+    color: var(--light_text_color);
+}
+.plans:hover .plansDetails__summary{
+    color: var(--light_text_color);
+}
+.plans:hover .plansbutton{
+    background-color: var(--button_bg_color);
+    color: var(--dark_text_color);
+}
+.plansDetailsPrice{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.plansDetailsPrice__number{
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--dark_text_color);
+    margin-right: 8px;
+}
+.plansDetailsPrice__design{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--icon_color);
+}
+
+.plansDetails__name{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--dark_text_color);
+    margin-bottom: 8px;
+}
+.plansDetails__summary{
+    font-size: var(--summary_font_size);
+    font-weight: var(--summary_font_weight);
+    color: var(--summary_text_color);
+}
+.plansItem{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.plansItem h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark_text_color);
+}
+.plansItem i{
+    /* color: #97DAAD; */
+    margin-right: 12px;
+}
+.plansbutton{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 77px;
+    background-color: #282938;
+    border: none;
+    border-radius: 41px;
+    color: var(--light_text_color);
+}
+.plansItem__non{
+    color: rgb(156, 156, 156);
+}
+/****************** plans part **********************/
