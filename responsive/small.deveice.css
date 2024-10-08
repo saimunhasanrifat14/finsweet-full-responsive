@@ -1,3 +1,69 @@
 @media (max-width: 767.98px) { 
+    :root {
+        --primary_bg_color: #1C1E53;
+        --secondary_bg_color: #F4F6FC;
+        /* --tertiary_bg_color: #F4F6FC; */
+        --white_bg_color: #ffffff;
+        --button_bg_color: #FCD980;
     
+        --light_text_color: #ffffff;
+        --dark_text_color: #282938;
+        --button_text_color: #1B1C2B;
+        --icon_color: #2405F2;
+    
+        --summary_text_color: #282938;
+        --summary_font_size: 16px;
+        --summary_font_weight: 400;
+        --summary_line_hight: 22px;
+    
+        --heading_font_size: 38px;
+        --heading_font_weight: 600;
+        --headimg_line_hight: 62px;
+    
+        --title_font_size: 32px;
+        --title_font_weight: 600;
+        --title_line_hight: 52px;
+    
+        --sub_title_font_size: 24px;
+        --sub_title_font_weight: 500;
+        --sub_title_line_hight: 48px;
+    }
+    /*************** project ***********/
+    .overlay {
+        padding: 0 20px 40px 20px;
+    }
+    .overlay__summary {
+        margin-bottom: 10px;
+    }
+    /*************** project ***********/
+    /*************** review ***********/
+    #reviewPart {
+        padding: 80px 50px;
+    }
+    .reviewLeft h3 {
+        font-size: 32px;
+    }
+    .reviewLeft p {
+       max-width: 400px;
+    }
+    .reviewRight h3 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    /*************** review ***********/
+    /*************** faq ***********/
+    #faqPart {
+        padding: 100px 0;
+        background-color: var(--white_bg_color);
+    }
+    .faqLeft__title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .faqLeft__link {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    /*************** faq ***********/
  }

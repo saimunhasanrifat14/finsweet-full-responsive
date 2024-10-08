@@ -3,14 +3,12 @@
     :root {
         --primary_bg_color: #1C1E53;
         --secondary_bg_color: #F4F6FC;
-        /* --tertiary_bg_color: #F4F6FC; */
         --white_bg_color: #ffffff;
         --button_bg_color: #FCD980;
     
         --light_text_color: #ffffff;
         --dark_text_color: #282938;
         --button_text_color: #1B1C2B;
-        --icon_color: #2405F2;
     
         --summary_text_color: #282938;
         --summary_font_size: 16px;
@@ -76,6 +74,9 @@
         width: 100%;
         margin-top: 30px;
     }
+    .customNav {
+        padding: 20px 0 20px 0;
+    }
    /*********** navber part **********/
 
    /*********** banner part **********/
@@ -96,26 +97,43 @@
         max-width: 435px;
     }
    /*********** work part **********/
-
+   /*********** project part **********/
    .projectLeft {
     margin-bottom: 30px; 
-}
+    }
+    /*********** project part **********/
+    /*********** review part **********/
+
     .reviewLeft h3 {
      font-size: 36px;
      max-width: 400px;
     }
-
+    /*********** review part **********/
+    /*********** faq part **********/
     .faqLeft__title {
         font-size: 36px;
     }
+    /*********** faq part **********/
+    /*********** contact part **********/
     .contactRight {
         padding: 64px 60px 40px 60px;
         display: flex;
         row-gap: 16px;
     }
-
+    /*********** contact part **********/
+    /*********** blog part **********/
     .blog:not(:last-child){
         margin-bottom: 60px;
     }
+    /*********** blog part **********/
+    /*********** footer part **********/
+    .footerLeft__contact {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .footerRight {
+        margin-bottom: 50px;
+    }
+    /*********** footer part **********/
 
  }
