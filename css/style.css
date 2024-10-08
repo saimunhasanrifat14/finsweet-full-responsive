@@ -99,7 +99,7 @@ body {
 }
 
 .customNavItem__btn {
-    padding: 16px 48px;
+    padding: 16px 40px;
     font-size: var(--summary_font_size);
     font-weight: 500;
     background-color: transparent;
@@ -318,6 +318,7 @@ body {
     row-gap: 12px;
     padding: 48px 32px 48px 48px;
     background-color: var(--white_bg_color);
+    height: 100%;
 }
 .peatureBottomItem__title {
     font-size: 24px;
@@ -446,6 +447,12 @@ body {
 /****************** contact part **********************/
 .contactLeft{
     position: relative;
+    height: 100%;
+    width: 100%;
+}
+.contactLeft img{
+    height: 100%;
+    width: 100%;
 }
 .contactLeftOverlay{
     position: absolute;
@@ -495,6 +502,9 @@ body {
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 8px;
+}
+.contactRight input::placeholder{
+    color: #f4f6fc82;
 }
 .contactRight__button{
     width: 100%;
