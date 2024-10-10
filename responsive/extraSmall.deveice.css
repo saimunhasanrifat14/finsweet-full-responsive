@@ -165,6 +165,9 @@
     .goalAreaTop {
         padding: 50px 40px;
     }
+    .solveingPartDetails__name {
+        line-height: 20px;
+    }
     #solveingPart {
         padding: 50px 0;
     }
@@ -189,6 +192,7 @@
     .goalAreaTopItem__title {
         font-size: 24px;
     }
+    
     /*============================= about page ==========================*/
 
  }
