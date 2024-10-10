@@ -137,6 +137,9 @@
     .blog:not(:last-child) {
         margin-bottom: 40px;
     }
+    .blog__details {
+        row-gap: 6px;
+    }
     /*************** blog ***********/
     /*************** footer ***********/
     .buttom-menu {
