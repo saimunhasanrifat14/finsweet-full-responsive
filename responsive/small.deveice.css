@@ -87,7 +87,7 @@
         padding: 90px 0;
     }
     /*============================= about page ==========================*/
-    /*============================= about page ==========================*/
+    /*============================= feature page ==========================*/
     .processTop__headimg{
         font-size: 30px;
         max-width: 400px;
@@ -98,6 +98,43 @@
     .faqLeft__title {
         font-size: 28px;
     }
-    /*============================= about page ==========================*/
+    /*============================= feature page ==========================*/
+    /*============================= pricing page ==========================*/
+    #plansPart {
+        padding: 90px 0;
+    }
+    .plans:hover {
+        color: var(--light_text_color);
+        transform: scale(1.03);
+    }
+    .plans {
+        background-color: var(--primary_bg_color);
+        margin: 0 20px 30px 20px;
+    }
+    .plansDetailsPrice__number {
+        font-size: 38px;
+        color: var(--light_text_color);
+    }
+    .plansDetailsPrice__design {
+        color: var(--button_bg_color);
+    }
+    .plansDetails__name {
+        font-size: 18px;
+        color: var(--light_text_color);
+    }
+    .plansDetails__summary {
+        color: var(--light_text_color);
+    }
+    .plansItem h5 {
+        font-size: 16px;
+        color: var(--light_text_color);
+    }
+    .plansbutton {
+        padding: 16px 77px;
+        font-size: 18px;
+        background-color: var(--button_bg_color);
+        color: var(--dark_text_color);
+    }
+    /*============================= pricing page ==========================*/
 
  }

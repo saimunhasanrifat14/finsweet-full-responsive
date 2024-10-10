@@ -226,5 +226,17 @@
         padding: 50px 0;
     }
     /*============================= about page ==========================*/
+    /*============================= pricing page ==========================*/
+    .plansbutton {
+        padding: 16px 56px;
+    }
+    .plans {
+        background-color: var(--primary_bg_color);
+        margin: 0 10px 30px 10px;
+    }
+    #plansPart {
+        padding: 50px 0;
+    }
+    /*============================= pricing page ==========================*/
 
  }
