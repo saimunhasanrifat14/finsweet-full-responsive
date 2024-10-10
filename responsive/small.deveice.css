@@ -87,5 +87,17 @@
         padding: 90px 0;
     }
     /*============================= about page ==========================*/
+    /*============================= about page ==========================*/
+    .processTop__headimg{
+        font-size: 30px;
+        max-width: 400px;
+    } 
+    .solveingPartDetails__title {
+        font-size: 28px;
+    }
+    .faqLeft__title {
+        font-size: 28px;
+    }
+    /*============================= about page ==========================*/
 
  }

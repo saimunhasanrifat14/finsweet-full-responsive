@@ -148,14 +148,15 @@
         margin-bottom: 40px;
     }
     .solveingPartDetails__title {
+        font-size: 32px;
         margin-bottom: 10px;
     }
     .solveingPartDetails__summary {
         margin-bottom: 20px;
     }
-    .solveingPartDetails{
+    /* .solveingPartDetails{
         text-align: center;
-    }
+    } */
     .goalAreaTopItem{
         margin-top: 30px;
     }
@@ -176,5 +177,33 @@
     }
 
     /*=============================== about page ==================================*/
+    /*=============================== feature page ==================================*/
+    .solveingPartDetails__title {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .solveingPartDetails__name {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #benefitPart {
+        padding: 90px 0;
+    }
+    #missionOne {
+        padding: 90px 0;
+    }
+    #missionTwo {
+        padding: 90px 0;
+    }
+    #missionThree {
+        padding: 90px 0;
+    }
+    #missionFour {
+        padding: 90px 0;
+    }
+    #faqPart {
+        padding: 90px 0;
+    }
+    /*=============================== feature page ==================================*/
 
  }

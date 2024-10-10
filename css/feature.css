@@ -38,15 +38,15 @@
 }
 #missionTwo{
     background-color: var(--secondary_bg_color);
-    padding: 128px;
+    padding: 128px 0;
 }
 #missionThree{
     background-color: var(--white_bg_color);
-    padding: 128px;
+    padding: 128px 0;
 }
 #missionFour{
     background-color: rgba(252, 217, 128, 0.1);
-    padding: 128px;
+    padding: 128px 0;
 }
 .missionTop{
     margin-bottom: 0;

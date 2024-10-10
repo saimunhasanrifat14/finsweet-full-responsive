@@ -163,7 +163,7 @@
 
     /*============================= about page ==========================*/
     .goalAreaTop {
-        padding: 50px 40px;
+        padding: 50px 30px;
     }
     .solveingPartDetails__name {
         line-height: 20px;
@@ -176,6 +176,10 @@
     }
     #missionPart {
         padding: 50px 0;
+    }
+    .missionTopDetails--title {
+        font-size: 32px;
+        line-height: 50px;
     }
     #benefitPart {
         padding: 50px 0;
@@ -190,9 +194,37 @@
         padding-top: 50px;
     }
     .goalAreaTopItem__title {
-        font-size: 24px;
+        font-size: 20px;
     }
     
+    /*============================= about page ==========================*/
+
+    /*============================= about page ==========================*/
+    .benefitBottom__user h4 {
+        font-size: 34px;
+    }
+    .processTop__headimg {
+        font-size: 26px;
+    }
+    .missionTopDetails--title {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .solveingPartDetails__name {
+        font-size: 16px;
+    }
+    #missionOne {
+        padding: 50px 0;
+    }
+    #missionTwo {
+        padding: 50px 0;
+    }
+    #missionThree {
+        padding: 50px 0;
+    }
+    #missionFour {
+        padding: 50px 0;
+    }
     /*============================= about page ==========================*/
 
  }
