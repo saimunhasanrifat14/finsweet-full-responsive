@@ -38,6 +38,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/responsive.css">
         <title>About Us</title>
     </head>
 <body>
@@ -47,8 +48,8 @@
           <a class="navbar-brand" href="#">
             <picture><img src="image/navber/navLogo.png" alt=""></picture>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler customToggler--button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon customToggler--icon"><i class="fa-solid fa-bars customToggler--icon"></i></span>
             </button>
           <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav ms-auto">
@@ -71,7 +72,7 @@
                 <a class="" aria-current="page" href="blog.html">Blog</a>
               </li>
             </ul>
-            <button class="customNavItem__btn">Contact us</button>
+            <a href="contact.html" class="customNavItem__link"><button class="customNavItem__btn nav--button">Contact us</button></a>
           </div>
         </div>
       </nav>
@@ -88,8 +89,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="solveingPartBanner d-flex justify-content-end">
-                        <picture><img src="image/solve/solveimg_banner.png" alt="image/solve/solveimg_banner.png"></picture>
+                    <div class="solveingPartBanner w-100 d-flex justify-content-md-center justify-content-xl-end">
+                        <picture><img src="image/solve/solveimg_banner.png" alt="image/solve/solveimg_banner.png" class="w-100 img-fluid"></picture>
                     </div>
                 </div>
             </div>
@@ -142,7 +143,7 @@
             <div class="col-lg-12">
               <div class="processBottom">
                 <div class="row">
-                  <div class="col-lg-3">
+                  <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="processBottomItem">
                       <div class="processBottomItem__icon">
                         <picture><img src="image/process/LineIndicator.png" alt=""></picture>
@@ -151,7 +152,7 @@
                       <p class="processBottomItem__summary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="processBottomItem">
                       <div class="processBottomItem__icon">
                         <picture><img src="image/process/LineIndicator.png" alt=""></picture>
@@ -160,7 +161,7 @@
                       <p class="processBottomItem__summary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="processBottomItem">
                       <div class="processBottomItem__icon">
                         <picture><img src="image/process/LineIndicator.png" alt=""></picture>
@@ -169,7 +170,7 @@
                       <p class="processBottomItem__summary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="processBottomItem">
                       <div class="processBottomItem__icon">
                         <picture><img src="image/process/LineIndicator.png" alt=""></picture>
@@ -202,8 +203,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="solveingPartBanner d-flex justify-content-end">
-                            <picture><img src="image/mission/missionTopBanner.png" alt="image/mission/missionTopBanner.png"></picture>
+                        <div class="solveingPartBanner d-flex justify-content-md-center justify-content-xl-end">
+                            <picture><img src="image/mission/missionTopBanner.png" alt="image/mission/missionTopBanner.png" class="w-100 img-fluid"></picture>
                         </div>
                     </div>
                   </div>
@@ -216,8 +217,8 @@
                 <div class="row align-items-center justify-content-between">
 
                   <div class="col-lg-5">
-                    <div class="solveingPartBanner d-flex">
-                        <picture><img src="image/mission/missionBottomBanner.png" alt="image/mission/missionTopBanner.png"></picture>
+                    <div class="solveingPartBanner justify-content-md-center d-flex">
+                        <picture><img src="image/mission/missionBottomBanner.png" alt="image/mission/missionTopBanner.png" class="w-100 img-fluid"></picture>
                     </div>
                   </div>
                   <div class="col-lg-6">
@@ -280,14 +281,14 @@
               <div class="benefitBottom">
                 <div class="row align-items-center justify-content-between">
 
-                  <div class="col-lg-2">
+                  <div class="col-lg-12 col-xl-2">
                     <div class="benefitBottom__user">
                       <h4>100.000+</h4>
                       <p>Finsweet Users</p>
                     </div>
                   </div>
 
-                  <div class="col-lg-10">
+                  <div class="col-lg-12 col-xl-10">
                     <div class="benefitBottomLogo d-flex justify-content-between">
                       <img src="image/benefit/Logo1.png" alt="">
                       <img src="image/benefit/Logo2.png" alt="">
@@ -315,7 +316,7 @@
             </div>
             <div class="col-lg-12">
               <div class="row">
-                <div class="col-lg-3 ">
+                <div class="col-md-6 col-lg-3 ">
 
                   <div class="teamMember">
                     <div class="teamMember__profile">
@@ -333,7 +334,7 @@
                   </div>
 
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                   <div class="teamMember">
                     <div class="teamMember__profile">
                       <img src="image/team/tame-2.png" alt="">
@@ -349,7 +350,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                   
                   <div class="teamMember">
                     <div class="teamMember__profile">
@@ -367,7 +368,7 @@
                   </div>
 
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                   
                   <div class="teamMember">
                     <div class="teamMember__profile">
@@ -391,17 +392,18 @@
         </div>
       </section>
       <!--======================= team part =======================-->
-
+      <!--======================= footer part =======================-->
       <footer id="footerPart">
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
               <div class="footerLeft">
                 <img src="image/navber/navLogo.png" alt="">
-                <p class="footerLeft__summary">We are always open to discuss your project and improve your online presence.</p>
-
+                <p class="footerLeft__summary">We are always open to discuss your project and improve your online presence.
+                </p>
+    
                 <div class="row">
-                  <div class="col-9">
+                  <div class="col-sm-12 col-md-12 col-lg-11 col-xl-9 p-sm-3 p-0">
                     <div class="footerLeft__contact">
                       <div class="row">
                         <div class="col-6">
@@ -421,7 +423,8 @@
             <div class="col-lg-6">
               <div class="footerRight">
                 <h3 class="footerRight__title">Lets Talk!</h3>
-                <p class="footerRight__summary">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
+                <p class="footerRight__summary">We are always open to discuss your project, improve your online presence and
+                  help with your UX/UI design challenges.</p>
                 <div class="footerRight__icons d-flex gap-4">
                   <i class="fa-brands fa-facebook"></i>
                   <i class="fa-brands fa-twitter"></i>
@@ -436,13 +439,15 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-12 d-flex justify-content-between footerBottom__details">
-                <a href="policy.html"><p>Copyright 2022, Finsweet.com</p></a>
-                <div class="d-flex gap-4">
+                <a href="policy.html">
+                  <p>Copyright 2022, Finsweet.com</p>
+                </a>
+                <div class="d-flex flex-wrap  buttom-menu">
                   <a href="index.html">Home</a>
                   <a href="about.html">About us</a>
                   <a href="features.html">Features</a>
                   <a href="pricing.html">Pricing</a>
-                  <a href="">FAQ</a>
+                  <a href="faq.html">FAQ</a>
                   <a href="blog.html">Blog</a>
                 </div>
               </div>
@@ -450,6 +455,8 @@
           </div>
         </div>
       </footer>
+      <!--======================= footer part =======================-->
+
 
 
 

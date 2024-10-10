@@ -156,4 +156,39 @@
         padding: 20px 0;
     }
     /*************** footer ***********/
+
+
+
+
+
+    /*============================= about page ==========================*/
+    .goalAreaTop {
+        padding: 50px 40px;
+    }
+    #solveingPart {
+        padding: 50px 0;
+    }
+    #processPart {
+        padding: 50px 0;
+    }
+    #missionPart {
+        padding: 50px 0;
+    }
+    #benefitPart {
+        padding: 50px 0;
+    }
+    .benefitBottomLogo {
+        margin: 0 20px;
+    }
+    #team {
+        padding: 50px 0;
+    }
+    #footerPart {
+        padding-top: 50px;
+    }
+    .goalAreaTopItem__title {
+        font-size: 24px;
+    }
+    /*============================= about page ==========================*/
+
  }

@@ -66,4 +66,26 @@
         margin-bottom: 40px;
     }
     /*************** faq ***********/
+
+    /*============================= about page ==========================*/
+    .goalAreaTop {
+        padding: 70px 50px;
+    }
+    #solveingPart {
+        padding: 90px 0;
+    }
+    #processPart {
+        padding: 90px 0;
+    }
+    #missionPart {
+        padding: 90px 0;
+    }
+    #benefitPart {
+        padding: 90px 0;
+    }
+    #team {
+        padding: 90px 0;
+    }
+    /*============================= about page ==========================*/
+
  }
