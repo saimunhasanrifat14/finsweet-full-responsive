@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/pricing.css">
     <link rel="stylesheet" href="css/feature.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>blog</title>
 </head>
 
@@ -27,38 +28,37 @@
     <!--======================= navber =======================-->
     <nav class="navbar navbar-expand-lg customNav">
         <div class="container ">
-            <a class="navbar-brand" href="#">
-                <picture><img src="image/navber/navLogo.png" alt=""></picture>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="customNavItem">
-                        <a class="" c aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="customNavItem">
-                        <a class="" aria-current="page" href="about.html">About us</a>
-                    </li>
-                    <li class="customNavItem">
-                        <a class="" aria-current="page" href="features.html">Features</a>
-                    </li>
-                    <li class="customNavItem">
-                        <a class="" aria-current="page" href="pricing.html">Pricing</a>
-                    </li>
-                    <li class="customNavItem">
-                        <a class="" aria-current="page" href="#">FAQ</a>
-                    </li>
-                    <li class="customNavItem">
-                        <a class="" aria-current="page" href="blog.html">Blog</a>
-                    </li>
-                </ul>
-                <button class="customNavItem__btn">Contact us</button>
-            </div>
+          <a class="navbar-brand" href="#">
+            <picture><img src="image/navber/navLogo.png" alt=""></picture>
+          </a>
+          <button class="navbar-toggler customToggler--button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon customToggler--icon"><i class="fa-solid fa-bars customToggler--icon"></i></span>
+          </button>
+          <div class="collapse navbar-collapse custom-nab" id="navbarNav">
+            <ul class="navbar-nav  ms-xl-auto ms-lg-auto">
+              <li class="customNavItem">
+                <a class="" c aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="customNavItem">
+                <a class="" aria-current="page" href="about.html">About us</a>
+              </li>
+              <li class="customNavItem">
+                <a class="" aria-current="page" href="features.html">Features</a>
+              </li>
+              <li class="customNavItem">
+                <a class="" aria-current="page" href="pricing.html">Pricing</a>
+              </li>
+              <li class="customNavItem">
+                <a class="" aria-current="page" href="faq.html">FAQ</a>
+              </li>
+              <li class="customNavItem">
+                <a class="" aria-current="page" href="blog.html">Blog</a>
+              </li>
+            </ul>
+            <a href="contact.html" class="customNavItem__link"><button class="customNavItem__btn nav--button">Contact us</button></a>
+          </div>
         </div>
-    </nav>
+      </nav>
     <!--======================= navber =======================-->
     <!--======================= blogPage =======================-->
     <section id="blogPage">
@@ -90,9 +90,9 @@
                 <div class="col-lg-12 text-center">
                     <h3 class="ourBlog__title">Our Blog</h3>
                 </div>
-
+            </div>
                 <div class="row">
-                    <div class="col-lg-4 card blog">
+                    <div class="col-lg-4 col-md-6 col-12 card blog">
                         <img src="image/blog/blogPage/allblogbennar1.png" class="card-img-top" alt="image/blog/blogPage/blogpagebennar1.png">
                         <div class="card-body p-0 blog__details">
                             <p class="card-text"><small class="text-muted">19 Jan 2022</small></p>
@@ -105,7 +105,7 @@
                                     class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 card blog">
+                    <div class="col-lg-4 col-md-6 col-12 card blog">
                         <img src="image/blog/blogPage/blogpagebennar2.png" class="card-img-top" alt="image/blog/blogPage/blogpagebennar2.png">
                         <div class="card-body p-0 blog__details">
                             <p class="card-text"><small class="text-muted">19 Jan 2022</small></p>
@@ -119,7 +119,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-4 card blog">
+                    <div class="col-lg-4 col-md-6 col-12 card blog">
                         <img src="image/blog/blogPage/blogpagebennar3.png" class="card-img-top" alt="image/blog/blogPage/blogpagebennar3.png">
                         <div class="card-body p-0 blog__details">
                             <p class="card-text"><small class="text-muted">19 Jan 2022</small></p>
@@ -133,8 +133,7 @@
 
                         </div>
                     </div>
-                   <div class="row ourBlogAllI--item">
-                    <div class="col-lg-4 card blog">
+                    <div class="col-lg-4 col-md-6 col-12 card blog">
                         <img src="image/blog/blogPage/blogpagebennar4.png" class="card-img-top" alt="image/blog/blogPage/blogpagebennar4.png">
                         <div class="card-body p-0 blog__details">
                             <p class="card-text"><small class="text-muted">19 Jan 2022</small></p>
@@ -147,7 +146,7 @@
                                     class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 card blog">
+                    <div class="col-lg-4 col-md-6 col-12 card blog">
                         <img src="image/blog/blogPage/blogpagebennar5.png" class="card-img-top" alt="image/blog/blogPage/blogpagebennar5.png">
                         <div class="card-body p-0 blog__details">
                             <p class="card-text"><small class="text-muted">19 Jan 2022</small></p>
@@ -161,7 +160,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-4 card blog">
+                    <div class="col-lg-4 col-md-6 col-12 card blog">
                         <img src="image/blog/blogPage/blogpagebennar6.png" class="card-img-top" alt="image/blog/blogPage/blogpagebennar6.png">
                         <div class="card-body p-0 blog__details">
                             <p class="card-text"><small class="text-muted">19 Jan 2022</small></p>
@@ -175,10 +174,9 @@
 
                         </div>
                     </div>
-                   </div>
                 </div>
 
-            </div>
+           
         </div>
     </section>
     <!--======================= ourBlog Page =======================-->
@@ -189,64 +187,66 @@
     <!--======================= footer part =======================-->
     <footer id="footerPart">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="footerLeft">
-                        <img src="image/navber/navLogo.png" alt="">
-                        <p class="footerLeft__summary">We are always open to discuss your project and improve your
-                            online presence.</p>
-
-                        <div class="row">
-                            <div class="col-9">
-                                <div class="footerLeft__contact">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <h5 class="footerLeft__contact__name">Email me at</h5>
-                                            <p class="footerLeft__contact__email">contact@website.com</p>
-                                        </div>
-                                        <div class="col-6">
-                                            <h5 class="footerLeft__contact__name">Call us</h5>
-                                            <p class="footerLeft__contact__email">0927 6277 28525</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="footerLeft">
+                <img src="image/navber/navLogo.png" alt="">
+                <p class="footerLeft__summary">We are always open to discuss your project and improve your online presence.
+                </p>
+    
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-11 col-xl-9 p-sm-3 p-0">
+                    <div class="footerLeft__contact">
+                      <div class="row">
+                        <div class="col-6">
+                          <h5 class="footerLeft__contact__name">Email me at</h5>
+                          <p class="footerLeft__contact__email">contact@website.com</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="footerRight">
-                        <h3 class="footerRight__title">Lets Talk!</h3>
-                        <p class="footerRight__summary">We are always open to discuss your project, improve your online
-                            presence and help with your UX/UI design challenges.</p>
-                        <div class="footerRight__icons d-flex gap-4">
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-linkedin"></i>
+                        <div class="col-6">
+                          <h5 class="footerLeft__contact__name">Call us</h5>
+                          <p class="footerLeft__contact__email">0927 6277 28525</p>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+            <div class="col-lg-6">
+              <div class="footerRight">
+                <h3 class="footerRight__title">Lets Talk!</h3>
+                <p class="footerRight__summary">We are always open to discuss your project, improve your online presence and
+                  help with your UX/UI design challenges.</p>
+                <div class="footerRight__icons d-flex gap-4">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="footerBottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-between footerBottom__details">
-                        <a href="policy.html"><p>Copyright 2022, Finsweet.com</p></a>
-                        <div class="d-flex gap-4">
-                            <a href="index.html">Home</a>
-                            <a href="about.html">About us</a>
-                            <a href="features.html">Features</a>
-                            <a href="pricing.html">Pricing</a>
-                            <a href="faq.html">FAQ</a>
-                            <a href="blog.html">Blog</a>
-                        </div>
-                    </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 d-flex justify-content-between footerBottom__details">
+                <a href="policy.html">
+                  <p>Copyright 2022, Finsweet.com</p>
+                </a>
+                <div class="d-flex flex-wrap  buttom-menu">
+                  <a href="index.html">Home</a>
+                  <a href="about.html">About us</a>
+                  <a href="features.html">Features</a>
+                  <a href="pricing.html">Pricing</a>
+                  <a href="faq.html">FAQ</a>
+                  <a href="blog.html">Blog</a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </footer>
+      </footer>
     <!--======================= footer part =======================-->
 
     <!--========== js ===========-->

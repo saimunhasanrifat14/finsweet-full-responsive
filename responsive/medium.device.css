@@ -19,9 +19,9 @@
         --heading_font_weight: 600;
         --headimg_line_hight: 76px;
     
-        --title_font_size: 40px;
+        --title_font_size: 38px;
         --title_font_weight: 600;
-        --title_line_hight: 64px;
+        --title_line_hight: 60px;
     
         --sub_title_font_size: 32px;
         --sub_title_font_weight: 500;
@@ -174,5 +174,7 @@
         color: var(--dark_text_color);
     }
     /*============================= pricing page ==========================*/
+    /*============================= blog page ==========================*/
+    /*============================= blog page ==========================*/
 
  }

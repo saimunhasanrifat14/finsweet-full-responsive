@@ -67,6 +67,9 @@
     padding-bottom: 128px;
     background-color: var(--white_bg_color);
 }
+.blog{
+    margin-bottom: 30px;
+}
 .ourBlog__title{
     font-size: var(--title_font_size);
     font-weight: var(--title_font_weight);
