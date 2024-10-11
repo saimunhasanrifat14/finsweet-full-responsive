@@ -43,43 +43,44 @@
         <link rel="stylesheet" href="css/contact.css">
         <link rel="stylesheet" href="css/blog.css">
         <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/responsive.css">
         <title>Work</title>
     </head>
 <body>
      <!--======================= navber =======================-->
      <nav class="navbar navbar-expand-lg customNav">
-        <div class="container ">
-          <a class="navbar-brand" href="#">
-            <picture><img src="image/navber/navLogo.png" alt=""></picture>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="customNavItem">
-                <a class="" c aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="customNavItem">
-                <a class="" aria-current="page" href="about.html">About us</a>
-              </li>
-              <li class="customNavItem">
-                <a class="" aria-current="page" href="features.html">Features</a>
-              </li>
-              <li class="customNavItem">
-                <a class="" aria-current="page" href="pricing.html">Pricing</a>
-              </li>
-              <li class="customNavItem">
-                <a class="" aria-current="page" href="faq.html">FAQ</a>
-              </li>
-              <li class="customNavItem">
-                <a class="" aria-current="page" href="blog.html">Blog</a>
-              </li>
-            </ul>
-            <a href="contact.html"><button class="customNavItem__btn">Contact us</button></a>
-          </div>
+      <div class="container ">
+        <a class="navbar-brand" href="#">
+          <picture><img src="image/navber/navLogo.png" alt=""></picture>
+        </a>
+        <button class="navbar-toggler customToggler--button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon customToggler--icon"><i class="fa-solid fa-bars customToggler--icon"></i></span>
+        </button>
+        <div class="collapse navbar-collapse custom-nab" id="navbarNav">
+          <ul class="navbar-nav  ms-xl-auto ms-lg-auto">
+            <li class="customNavItem">
+              <a class="" c aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="customNavItem">
+              <a class="" aria-current="page" href="about.html">About us</a>
+            </li>
+            <li class="customNavItem">
+              <a class="" aria-current="page" href="features.html">Features</a>
+            </li>
+            <li class="customNavItem">
+              <a class="" aria-current="page" href="pricing.html">Pricing</a>
+            </li>
+            <li class="customNavItem">
+              <a class="" aria-current="page" href="faq.html">FAQ</a>
+            </li>
+            <li class="customNavItem">
+              <a class="" aria-current="page" href="blog.html">Blog</a>
+            </li>
+          </ul>
+          <a href="contact.html" class="customNavItem__link"><button class="customNavItem__btn nav--button">Contact us</button></a>
         </div>
-      </nav>
+      </div>
+    </nav>
       <!--======================= navber =======================-->
 
         <!--======================= work page heading =======================-->
@@ -183,10 +184,11 @@
             <div class="col-lg-6">
               <div class="footerLeft">
                 <img src="image/navber/navLogo.png" alt="">
-                <p class="footerLeft__summary">We are always open to discuss your project and improve your online presence.</p>
-
+                <p class="footerLeft__summary">We are always open to discuss your project and improve your online presence.
+                </p>
+    
                 <div class="row">
-                  <div class="col-9">
+                  <div class="col-sm-12 col-md-12 col-lg-11 col-xl-9 p-sm-3 p-0">
                     <div class="footerLeft__contact">
                       <div class="row">
                         <div class="col-6">
@@ -206,7 +208,8 @@
             <div class="col-lg-6">
               <div class="footerRight">
                 <h3 class="footerRight__title">Lets Talk!</h3>
-                <p class="footerRight__summary">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
+                <p class="footerRight__summary">We are always open to discuss your project, improve your online presence and
+                  help with your UX/UI design challenges.</p>
                 <div class="footerRight__icons d-flex gap-4">
                   <i class="fa-brands fa-facebook"></i>
                   <i class="fa-brands fa-twitter"></i>
@@ -221,8 +224,10 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-12 d-flex justify-content-between footerBottom__details">
-                <p>Copyright 2022, Finsweet.com</p>
-                <div class="d-flex gap-4">
+                <a href="policy.html">
+                  <p>Copyright 2022, Finsweet.com</p>
+                </a>
+                <div class="d-flex flex-wrap  buttom-menu">
                   <a href="index.html">Home</a>
                   <a href="about.html">About us</a>
                   <a href="features.html">Features</a>

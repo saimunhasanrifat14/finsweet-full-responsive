@@ -174,7 +174,19 @@
         color: var(--dark_text_color);
     }
     /*============================= pricing page ==========================*/
-    /*============================= blog page ==========================*/
-    /*============================= blog page ==========================*/
+    /*============================= work page ==========================*/
+    #workPageHeading {
+        padding: 90px 0;
+    }
+    .workbottom--title {
+        margin-bottom: 0px;
+    }
+    .workPageHeadingTop__summary {
+        margin-bottom: 15px;
+    }
+    #workBottom {
+        padding-bottom: 90px;
+    }
+    /*============================= work page ==========================*/
 
  }

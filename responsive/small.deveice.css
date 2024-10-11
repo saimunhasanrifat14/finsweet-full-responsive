@@ -146,5 +146,14 @@
         padding: 0px 50px;
     }
     /*============================= read blog page ==========================*/
+    /*============================= work page ==========================*/
+    #workPageHeading {
+        padding: 50px 0;
+    }
+    #workPage {
+        padding: 50px 0 50px 0;
+        background-color: var(--white_bg_color);
+    }
+    /*============================= work page ==========================*/
 
  }

@@ -273,5 +273,19 @@
         padding-left: 10px;
     }
     /*============================= read blog page ==========================*/
+    /*============================= work page ==========================*/
+    .workPageMenu{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        column-gap: 25px;
+    }
+    .buttonLeft--modifier {
+        padding: 10px 20px;
+    }
+    #workBottom {
+        padding-bottom: 50px;
+    }
+    /*============================= work page ==========================*/
 
  }
