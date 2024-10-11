@@ -287,5 +287,19 @@
         padding-bottom: 50px;
     }
     /*============================= work page ==========================*/
+    /*============================= read work page ==========================*/
+    .readWorkPageArea {
+        padding: 0 10px;
+    }
+    .readWorkPageAreaAbout {
+        padding: 50px 0px;
+    }
+    .readWorkPageAreaBottomItem__about {
+        font-size: 20px;
+    }
+    .readWorkPageAreaAbout__title {
+        font-size: 24px;
+    }
+    /*============================= read work page ==========================*/
 
  }

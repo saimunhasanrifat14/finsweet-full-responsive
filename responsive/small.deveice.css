@@ -155,5 +155,13 @@
         background-color: var(--white_bg_color);
     }
     /*============================= work page ==========================*/
+    /*============================= read work page ==========================*/
+    .readWorkPageArea {
+        padding: 0 0px;
+    }
+    .readWorkPageAreaAbout {
+        padding: 50px 30px;
+    }
+    /*============================= read work page ==========================*/
 
  }

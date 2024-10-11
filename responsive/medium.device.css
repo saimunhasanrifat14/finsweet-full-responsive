@@ -188,5 +188,19 @@
         padding-bottom: 90px;
     }
     /*============================= work page ==========================*/
+    /*============================= read work page ==========================*/
+    .readWorkPageArea {
+        padding: 0 50px;
+    }
+    .readWorkPageAreaAbout__list li {
+        margin-bottom: 5px;
+    }
+    .readWorkPageAreaAbout {
+        padding: 50px 50px;
+    }
+    #readWorkPage {
+        padding: 51px 0;
+    }
+    /*============================= read work page ==========================*/
 
  }
