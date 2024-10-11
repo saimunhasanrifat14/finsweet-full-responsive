@@ -301,5 +301,17 @@
         font-size: 24px;
     }
     /*============================= read work page ==========================*/
+    /*============================= read work page ==========================*/
+    .formArea {
+        padding: 50px 20px;
+    }
+    .formBg {
+        padding: 0px 20px 51px 20px;
+    }
+    .formItem input {
+        padding: 18px 0 18px 20px;
+    }
+    
+    /*============================= read work page ==========================*/
 
  }
