@@ -1,0 +1,32 @@
+
+@media (max-width: 1199.98px) { 
+    :root {
+        --summary_text_color: #282938;
+        --summary_font_size: 16px;
+        --summary_font_weight: 400;
+        --summary_line_hight: 24px;
+    
+        --heading_font_size: 36px;
+        --heading_font_weight: 600;
+        --headimg_line_hight: 50px;
+    
+        --title_font_size: 32px;
+        --title_font_weight: 600;
+        --title_line_hight: 50px;
+    
+        --sub_title_font_size: 26px;
+        --sub_title_font_weight: 500;
+        --sub_title_line_hight: 48px;
+    }
+    /*=============================== blog page ==================================*/
+   /******** footer part *******/
+   .footerLeft__summary {
+        padding-right: 100px;
+    }
+    .footerRight__summary {
+        padding-right: 100px;
+    }
+/******** footer part *******/
+    /*=============================== blog page ==================================*/
+
+ }

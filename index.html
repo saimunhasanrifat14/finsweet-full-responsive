@@ -15,10 +15,10 @@
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
   <!--========= icon ==========-->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/home-css/style.css">
   <link rel="icon" type="image/x-icon" href="image/navber/navLogo.png">
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/home-css/responsive.css">
   <title>Finsweet</title>
 </head>
 
@@ -33,7 +33,7 @@
         <span class="navbar-toggler-icon customToggler--icon"><i class="fa-solid fa-bars customToggler--icon"></i></span>
       </button>
       <div class="collapse navbar-collapse custom-nab" id="navbarNav">
-        <ul class="navbar-nav  ms-xl-auto ms-lg-auto">
+        <ul class="navbar-nav ms-xl-auto ms-lg-auto mt-4 mt-lg-0 mb-4 mb-lg-0">
           <li class="customNavItem">
             <a class="" c aria-current="page" href="index.html">Home</a>
           </li>
@@ -63,22 +63,22 @@
   <section class="bannerPart">
     <div class="container">
       <div class="row banner justify-content-between align-items-center">
-        <div class="col-lg-5 col-sm-12">
+        <div class="col-12 col-lg-6 col-xl-5 text-center text-lg-start">
           <div class="bannerLeft d-flex flex-column">
             <h1 class="bannerLeft__title">Building stellar websites for early startups</h1>
             <p class="bannerLeft__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt.</p>
-            <div class="row bannerLeft__buttons">
-              <div class="col-5 col-sm-4 col-md-3 col-lg-5 col-xl-5"><a href="contact.html"><button
+            <div class="row justify-content-center justify-content-lg-start bannerLeft__buttons">
+              <div class="col-5 col-sm-6 col-md-4 col-lg-5 col-xl-5 "><a href="contact.html"><button
                     class="customNavItem__btn buttonLeft--modifier">Contact us</button></a>
               </div>
-              <div class="col-7 col-sm-6 col-md-6 col-lg-7 col-xl-5 col-xl-7"><a class="customNavItem__btn buttonRight--modifier"
+              <div class="col-6 col-sm-6 col-md-4 col-lg-6 col-xl-7 "><a class="customNavItem__btn buttonRight--modifier"
                   href="pricing.html">View Pricing <i class="fa-solid fa-arrow-right-long"></i></a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 mt-5 mt-lg-0">
           <div class="bannerRight">
             <picture><img src="image/banner/Illustration.png" alt="image/banner/Illustration.png" class="w-100 img-fluid"></picture>
           </div>
@@ -91,9 +91,9 @@
   <!--======================= work part =======================-->
   <section id="workPart">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-xl-4">
-          <div class="workLeft d-flex flex-column align-items-start">
+      <div class="row justify-content-lg-between">
+        <div class="col-lg-4 mb-2 mb-lg-0">
+          <div class="workLeft d-flex flex-column align-items-center align-items-lg-start  text-center text-lg-start">
             <h3 class="workLeft__title">How we work</h3>
             <p class="workLeft__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
             </p>
@@ -101,32 +101,40 @@
                 class="fa-solid fa-arrow-right-long"></i></a>
           </div>
         </div>
-        <div class="col-lg-12 col-xl-6 offset-xl-1">
+        <div class="col-lg-7">
           <div class="workRight">
-            <div class="row g-5">
-              <div class="col-md-12 col-lg-6 d-flex flex-column workRightItem">
-                <picture><img src="image/work/pointer1.png" alt=""></picture>
-                <h4 class="workRightItem__title">Strategy</h4>
-                <p class="workRightItem__summary">Euismod faucibus turps eu gravida mi. Pellentesque et velit aliquam .
-                </p>
+            <div class="row">
+              <div class="col-md-6 col-lg-6 d-flex flex-column mt-4 mt-lg-0 mb-lg-5 text-center text-lg-start ">
+                <div class="workRightItem">
+                  <picture><img src="image/work/pointer1.png" alt=""></picture>
+                  <h4 class="workRightItem__title">Strategy</h4>
+                  <p class="workRightItem__summary">Euismod faucibus turps eu gravida mi. Pellentesque et velit aliquam . </p>
+                </div>
+               
               </div>
-              <div class="col-md-12 col-lg-6 d-flex flex-column workRightItem">
-                <picture><img src="image/work/pointer2.png" alt=""></picture>
+              <div class="col-md-6 col-lg-6 d-flex flex-column mt-4 mt-lg-0 mb-lg-5 text-center text-lg-start ">
+                <div class="workRightItem">
+                  <picture><img src="image/work/pointer2.png" alt=""></picture>
                 <h4 class="workRightItem__title">Wireframing</h4>
                 <p class="workRightItem__summary">Euismod faucibus turps eu gravida mi. Pellentesque et velit aliquam .
                 </p>
+                </div>
               </div>
-              <div class="col-md-12 col-lg-6 d-flex flex-column workRightItem">
-                <picture><img src="image/work/pointer3.png" alt=""></picture>
-                <h4 class="workRightItem__title">Wireframing</h4>
-                <p class="workRightItem__summary">Euismod faucibus turps eu gravida mi. Pellentesque et velit aliquam .
-                </p>
+              <div class="col-md-6 col-lg-6 d-flex flex-column mt-4 mt-lg-0 text-center text-lg-start ">
+                <div class="workRightItem">
+                  <picture><img src="image/work/pointer3.png" alt=""></picture>
+                  <h4 class="workRightItem__title">Wireframing</h4>
+                  <p class="workRightItem__summary">Euismod faucibus turps eu gravida mi. Pellentesque et velit aliquam .
+                  </p>
+                </div>
               </div>
-              <div class="col-md-12 col-lg-6 d-flex flex-column workRightItem">
-                <picture><img src="image/work/pointer4.png" alt=""></picture>
-                <h4 class="workRightItem__title">Development</h4>
-                <p class="workRightItem__summary">Euismod faucibus turps eu gravida mi. Pellentesque et velit aliquam .
+              <div class="col-md-6 col-lg-6 d-flex flex-column mt-4 mt-lg-0 text-center text-lg-start ">
+                <div class="workRightItem">
+                  <picture><img src="image/work/pointer4.png" alt=""></picture>
+                  <h4 class="workRightItem__title">Development</h4>
+                  <p class="workRightItem__summary">Euismod faucibus turps eu gravida mi. Pellentesque et velit aliquam .
                 </p>
+                </div>
               </div>
             </div>
           </div>
@@ -162,7 +170,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-xl-4 col-md-12">
+        <div class="col-lg-4 col-xl-4 col-md-12 mt-4 mt-lg-0">
           <div class="row h-100 align-content-between justify-content-end">
             <div class="col-lg-12 col-md-6">
               <div class="projectLeft">
@@ -177,7 +185,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-12 col-md-6">
+            <div class="col-lg-12 col-md-6 mt-4 mt-md-0">
               <div class="projectLeft">
                 <picture>
                   <img src="image/project/Card3.png" class="w-100 img-fluid" alt="">
@@ -202,8 +210,8 @@
   <section id="peaturesPart">
     <div class="container">
       <div class="row justify-content-lg-center justify-content-sm-start peatureTop">
-        <div class="col-lg-6 ">
-          <div class="peatureTop text-lg-center text-sm-start d-flex flex-column">
+        <div class="col-lg-7 ">
+          <div class="peatureTop text-center d-flex flex-column">
             <h6 class="peatureTop__subTitle">Features</h6>
             <h3 class="peatureTop__title">Design that solves problems, one product at a time</h3>
           </div>
@@ -211,7 +219,7 @@
       </div>
 
       <div class="row g-4 peatureBottom">
-        <div class="col-lg-6 col-xl-4">
+        <div class="text-center text-lg-start col-lg-6 col-xl-4">
           <div class="peatureBottomItem d-flex flex-column">
             <picture>
               <img src="image/peatures/Icon.png" alt="">
@@ -221,7 +229,7 @@
               sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
           </div>
         </div>
-        <div class="col-lg-6 col-xl-4">
+        <div class="text-center text-lg-start col-lg-6 col-xl-4">
           <div class="peatureBottomItem d-flex flex-column">
             <picture>
               <img src="image/peatures/Icon2.png" alt="">
@@ -231,7 +239,7 @@
               sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
           </div>
         </div>
-        <div class="col-lg-6 col-xl-4">
+        <div class="text-center text-lg-start col-lg-6 col-xl-4">
           <div class="peatureBottomItem d-flex flex-column">
             <picture>
               <img src="image/peatures/Icon3.png" alt="">
@@ -241,7 +249,7 @@
               sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
           </div>
         </div>
-        <div class="col-lg-6 col-xl-4">
+        <div class="text-center text-lg-start col-lg-6 col-xl-4">
           <div class="peatureBottomItem d-flex flex-column">
             <picture>
               <img src="image/peatures/Icon4.png" alt="">
@@ -251,7 +259,7 @@
               sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
           </div>
         </div>
-        <div class="col-lg-6 col-xl-4">
+        <div class="text-center text-lg-start col-lg-6 col-xl-4">
           <div class="peatureBottomItem d-flex flex-column">
             <picture>
               <img src="image/peatures/Icon5.png" alt="">
@@ -261,7 +269,7 @@
               sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
           </div>
         </div>
-        <div class="col-lg-6 col-xl-4">
+        <div class="text-center text-lg-start col-lg-6 col-xl-4">
           <div class="peatureBottomItem d-flex flex-column">
             <picture>
               <img src="image/peatures/Icon6.png" alt="">
@@ -279,22 +287,26 @@
   <!--======================= review part =======================-->
   <section id="reviewPart">
     <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-lg-4 col-xl-3 reviewLeft">
-          <h3>What our clients say about us</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
+      <div class="row justify-content-between text-center text-lg-start">
+        <div class="col-lg-4 mb-4 mb-lg-0 ">
+          <div class="reviewLeft">
+            <h3>What our clients say about us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
+          </div>
         </div>
-        <div class="col-lg-7 reviewRight">
-          <h3>"The best agency we’ve worked with so far. They understand our product and are able to add new features
-            with a great focus."</h3>
-          <div class="row align-items-center reviewRight__profile">
-            <div class=" col-3 col-sm-2 col-md-2 col-lg-2 col-xl-1">
-              <picture><img src="image/review/client_profile.png" alt=""></picture>
-            </div>
-            <div class="col-7 col-sm-6 col-md-6 col-lg-6 col-xl-6 reviewRight__profile__details">
-              <h5>Jenny Wilson</h5>
-              <h6>Vice President</h6>
-            </div>
+        <div class="col-lg-7">
+          <div class="reviewRight mb-4">
+              <h3>"The best agency we’ve worked with so far. They understand our product and are able to add new features
+              with a great focus."</h3>
+          </div>
+          <div class="justify-content-center justify-content-lg-start reviewRight__profile">
+              <div class="reviewRight__profile__img">
+                <picture><img src="image/review/client_profile.png" alt=""></picture>
+              </div>
+              <div class="reviewRight__profile__details">
+                <h5>Jenny Wilson</h5>
+               <h6>Vice President</h6>
+              </div>
           </div>
         </div>
       </div>
@@ -429,7 +441,7 @@
       </div>
       <div class="row">
 
-        <div class="col-lg-4 card blog">
+        <div class="col-lg-4 card blog mb-5 mb-lg-0">
           <img src="image/blog/apple-monitors-1.png" class="card-img-top" alt="...">
           <div class="card-body p-0 blog__details">
             <p class="card-text"><small class="text-muted">19 Jan 2022</small></p>
@@ -441,7 +453,7 @@
             <a class="blog__details__link" href="blog.html">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
           </div>
         </div>
-        <div class="col-lg-4 card blog">
+        <div class="col-lg-4 card blog mb-5 mb-lg-0">
           <img src="image/blog/apple-monitors-2.png" class="card-img-top" alt="...">
           <div class="card-body p-0 blog__details">
             <p class="card-text"><small class="text-muted">19 Jan 2022</small></p>
@@ -477,14 +489,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <div class="footerLeft">
+          <div class="footerLeft text-center text-lg-start">
             <img src="image/navber/navLogo.png" alt="">
             <p class="footerLeft__summary">We are always open to discuss your project and improve your online presence.
             </p>
 
             <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-11 col-xl-9 p-sm-3 p-0">
-                <div class="footerLeft__contact">
+              <div class="col-sm-12 col-md-12 col-lg-11 col-xl-9">
+                <div class="footerLeft__contact mb-lg-0 mb-4 ">
                   <div class="row">
                     <div class="col-6">
                       <h5 class="footerLeft__contact__name">Email me at</h5>
@@ -500,12 +512,12 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center text-lg-start mb-lg-0 mb-4">
           <div class="footerRight">
             <h3 class="footerRight__title">Lets Talk!</h3>
             <p class="footerRight__summary">We are always open to discuss your project, improve your online presence and
               help with your UX/UI design challenges.</p>
-            <div class="footerRight__icons d-flex gap-4">
+            <div class="footerRight__icons d-flex justify-content-center justify-content-lg-start gap-4">
               <i class="fa-brands fa-facebook"></i>
               <i class="fa-brands fa-twitter"></i>
               <i class="fa-brands fa-instagram"></i>
@@ -517,20 +529,22 @@
     </div>
     <div class="footerBottom">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-between footerBottom__details">
-            <a href="policy.html">
-              <p>Copyright 2022, Finsweet.com</p>
-            </a>
-            <div class="d-flex flex-wrap  buttom-menu">
-              <a href="index.html">Home</a>
-              <a href="about.html">About us</a>
-              <a href="features.html">Features</a>
-              <a href="pricing.html">Pricing</a>
-              <a href="faq.html">FAQ</a>
-              <a href="blog.html">Blog</a>
+        <div class="footerBottom__details d-flex flex-column flex-lg-row justify-content-lg-between">
+            <div class="text-center text-lg-start mb-4 mb-lg-0">
+              <a href="policy.html">
+                <p>Copyright 2022, Finsweet.com</p>
+              </a>
             </div>
-          </div>
+            <div class="">
+              <ul class="d-flex flex-wrap justify-content-between p-0 m-0">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,100 @@
+@media (max-width: 575.98px) { 
+    :root {
+        --primary_bg_color: #1C1E53;
+        --secondary_bg_color: #F4F6FC;
+        /* --tertiary_bg_color: #F4F6FC; */
+        --white_bg_color: #ffffff;
+        --button_bg_color: #FCD980;
+    
+        --light_text_color: #ffffff;
+        --dark_text_color: #282938;
+        --button_text_color: #1B1C2B;
+        --icon_color: #2405F2;
+    
+        --summary_text_color: #282938;
+        --summary_font_size: 14px;
+        --summary_font_weight: 400;
+        --summary_line_hight: 20px;
+    
+        --heading_font_size: 28px;
+        --heading_font_weight: 600;
+        --headimg_line_hight: 45px;
+    
+        --title_font_size: 24px;
+        --title_font_weight: 600;
+        --title_line_hight: 38px;
+    
+        --sub_title_font_size: 20px;
+        --sub_title_font_weight: 500;
+        --sub_title_line_hight: 48px;
+    }
+    /*============================= about page ==========================*/
+    .goalAreaTop {
+        padding: 50px 30px;
+    }
+    .solveingPartDetails__name {
+        line-height: 20px;
+    }
+    #solveingPart {
+        padding: 50px 0;
+    }
+    #processPart {
+        padding: 50px 0;
+    }
+    .processBottomItem__icon::before {
+        width: 20px;
+        height: 20px;
+        top: 3px;
+    }
+    /*************** process ***********/
+    /*************** mission ***********/
+    #missionPart {
+        padding: 50px 0;
+    }
+    .missionTopDetails--title {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    /*************** mission ***********/
+    /*************** benigit ***********/
+    #benefitPart {
+        padding: 50px 0;
+    }
+    .benefitBottomLogo {
+        margin: 0 20px;
+    }
+    /*************** benigit ***********/
+    /*************** team ***********/
+    #team {
+        padding: 50px 0;
+    }
+    /*************** team ***********/
+    /*************** goal ***********/
+    .goalAreaTopItem__title {
+        font-size: 20px;
+    }
+    /*************** goal ***********/
+    /*************** footer ***********/
+    .buttom-menu {
+        row-gap: 5px;
+        column-gap: 15px;
+    }
+    #footerPart {
+        padding-top: 50px;
+    }
+    .footerBottom__details p {
+        font-size: 14px;
+    }
+    .footerBottom__details a{
+        font-size: 14px;
+    }
+    .footerBottom {
+        padding: 20px 0;
+    }
+    .footerLeft__contact__email {
+        font-size: 14px;
+    }
+    /*************** footer ***********/
+    /*============================= about page ==========================*/
+
+ }

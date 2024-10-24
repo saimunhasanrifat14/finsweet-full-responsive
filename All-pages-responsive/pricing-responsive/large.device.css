@@ -1,0 +1,80 @@
+
+@media (max-width: 1199.98px) { 
+    :root {
+        --summary_text_color: #282938;
+        --summary_font_size: 16px;
+        --summary_font_weight: 400;
+        --summary_line_hight: 24px;
+    
+        --heading_font_size: 36px;
+        --heading_font_weight: 600;
+        --headimg_line_hight: 50px;
+    
+        --title_font_size: 32px;
+        --title_font_weight: 600;
+        --title_line_hight: 50px;
+    
+        --sub_title_font_size: 26px;
+        --sub_title_font_weight: 500;
+        --sub_title_line_hight: 48px;
+    }
+   
+    /*=============================== pricing page ==================================*/
+    /******** plan part *******/
+    .plans {
+        padding: 50px 39px 62px 40px;
+    }
+    .plans--last {
+        row-gap: 58px;
+    }
+    .plansDetailsPrice__number {
+        font-size: 32px;
+    }
+    .plansDetails__name {
+        font-size: 18px;
+    }
+    .plansbutton {
+        padding: 16px 50px;
+        font-size: 16px;
+    }
+    .plansItem h5 {
+        font-size: 14px;
+    }
+    .plansItem {
+        row-gap: 18px;
+    }
+    #plansPart {
+        padding: 100px 0;
+    }
+    /******** plan part *******/
+    /******** faq part *******/
+    .faqLeft__title {
+        font-size: 30px;
+        line-height: 48px;
+        padding-right: 0px;
+        margin-bottom: 16px;
+    }
+    .faqLeft__link {
+        font-size: 16px;
+    }
+
+    .question__summary {
+        padding: 16px 90px;
+    }
+    .accordion-button{
+        font-size: 22px;
+    }
+    .count{
+        font-size: 20px;
+    }
+    /******** faq part *******/
+    /******** footer part *******/
+    .footerLeft__summary {
+        padding-right: 100px;
+    }
+    .footerRight__summary {
+        padding-right: 100px;
+    }
+    /******** footer part *******/
+    /*=============================== pricing page ==================================*/
+ }

@@ -35,88 +35,108 @@
           href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
         >
         <!--========= icon ==========-->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/pricing.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="css/home-css/style.css">
+        <link rel="stylesheet" href="css/pricing-css/pricing.css">
+        <link rel="stylesheet" href="css/pricing-css/responsive.css">
         <title>Pricing</title>
     </head>
-<body>
+    <body>
     
-    <!--======================= navber =======================-->
-    <nav class="navbar navbar-expand-lg customNav">
-      <div class="container ">
-        <a class="navbar-brand" href="#">
-          <picture><img src="image/navber/navLogo.png" alt=""></picture>
-        </a>
-        <button class="navbar-toggler customToggler--button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon customToggler--icon"><i class="fa-solid fa-bars customToggler--icon"></i></span>
-        </button>
-        <div class="collapse navbar-collapse custom-nab" id="navbarNav">
-          <ul class="navbar-nav  ms-xl-auto ms-lg-auto">
-            <li class="customNavItem">
-              <a class="" c aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="customNavItem">
-              <a class="" aria-current="page" href="about.html">About us</a>
-            </li>
-            <li class="customNavItem">
-              <a class="" aria-current="page" href="features.html">Features</a>
-            </li>
-            <li class="customNavItem">
-              <a class="" aria-current="page" href="pricing.html">Pricing</a>
-            </li>
-            <li class="customNavItem">
-              <a class="" aria-current="page" href="faq.html">FAQ</a>
-            </li>
-            <li class="customNavItem">
-              <a class="" aria-current="page" href="blog.html">Blog</a>
-            </li>
-          </ul>
-          <a href="contact.html" class="customNavItem__link"><button class="customNavItem__btn nav--button">Contact us</button></a>
-        </div>
-      </div>
-    </nav>
       <!--======================= navber =======================-->
-
-      <!--======================= plans =======================-->
-      <section id="plansPart">
-        <div class="container">
-             <div class="plansTop d-flex flex-column text-center align-items-center">
-                <h3 class="plansTop__title">Our Pricing Plans</h3>
-                <p class="plansTop__summary">When you’re ready to go beyond prototyping in Figma, Webflow is ready to help you bring your designs to life — without coding them.</p>
-             </div>
-
-             <div class="row">
-                <div class="col-lg-4 col-xl-4 ">
-                    <div class="plans d-flex flex-column align-content-between">
+      <nav class="navbar navbar-expand-lg customNav">
+        <div class="container ">
+          <a class="navbar-brand" href="#">
+            <picture><img src="image/navber/navLogo.png" alt=""></picture>
+          </a>
+          <button class="navbar-toggler customToggler--button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon customToggler--icon"><i class="fa-solid fa-bars customToggler--icon"></i></span>
+          </button>
+          <div class="collapse navbar-collapse custom-nab" id="navbarNav">
+            <ul class="navbar-nav  ms-xl-auto ms-lg-auto my-4 my-lg-0">
+              <li class="customNavItem">
+                <a class="" c aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="customNavItem">
+                <a class="" aria-current="page" href="about.html">About us</a>
+              </li>
+              <li class="customNavItem">
+                <a class="" aria-current="page" href="features.html">Features</a>
+              </li>
+              <li class="customNavItem">
+                <a class="" aria-current="page" href="pricing.html">Pricing</a>
+              </li>
+              <li class="customNavItem">
+                <a class="" aria-current="page" href="faq.html">FAQ</a>
+              </li>
+              <li class="customNavItem">
+                <a class="" aria-current="page" href="blog.html">Blog</a>
+              </li>
+            </ul>
+            <a href="contact.html" class="customNavItem__link"><button class="customNavItem__btn nav--button">Contact us</button></a>
+          </div>
+        </div>
+      </nav>
+        <!--======================= navber =======================-->
+  
+        <!--======================= plans =======================-->
+        <section id="plansPart">
+          <div class="container">
+               <div class="plansTop d-flex flex-column text-center align-items-center">
+                  <h3 class="plansTop__title">Our Pricing Plans</h3>
+                  <p class="plansTop__summary">When you’re ready to go beyond prototyping in Figma, Webflow is ready to help you bring your designs to life — without coding them.</p>
+               </div>
+  
+               <div class="row">
+                  <div class="col-lg-4 col-xl-4 mb-4 mb-lg-0">
+                      <div class="plans d-flex flex-column align-content-between">
+                          <div class="plansDetails">
+                              <div class="plansDetailsPrice">
+                                  <h4 class="plansDetailsPrice__number">$299</h4>
+                                  <p class="plansDetailsPrice__design">Per Design</p>
+                              </div>
+                              <h4 class="plansDetails__name">Landing Page </h4>
+                              <p class="plansDetails__summary">When you’re ready to go beyond prototyping in Figma, </p>
+                          </div>
+                          <div class="plansItem">
+                              <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> All limited links</h5>
+                              <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Own analytics platform</h5>
+                              <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Chat support</h5>
+                              <h5> <span class="plansItem__non"><i class="fa-solid fa-play"></i></span> Optimize hashtags</h5>
+                              <h5> <span class="plansItem__non"><i class="fa-solid fa-play"></i></span> Unlimited users</h5>
+                          </div>
+                          <button class="plansbutton">Get started</button>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-xl-4 mb-4 mb-lg-0">
+                    <div class="plans plans--medle d-flex flex-column align-content-between">
                         <div class="plansDetails">
                             <div class="plansDetailsPrice">
-                                <h4 class="plansDetailsPrice__number">$299</h4>
+                                <h4 class="plansDetailsPrice__number">$399</h4>
                                 <p class="plansDetailsPrice__design">Per Design</p>
                             </div>
                             <h4 class="plansDetails__name">Landing Page </h4>
-                            <p class="plansDetails__summary">When you’re ready to go beyond prototyping in Figma, </p>
+                            <p class="plansDetails__summary">When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help.</p>
                         </div>
                         <div class="plansItem">
                             <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> All limited links</h5>
                             <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Own analytics platform</h5>
                             <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Chat support</h5>
-                            <h5> <span class="plansItem__non"><i class="fa-solid fa-play"></i></span> Optimize hashtags</h5>
-                            <h5> <span class="plansItem__non"><i class="fa-solid fa-play"></i></span> Unlimited users</h5>
+                            <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Optimize hashtags</h5>
+                            <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Unlimited users</h5>
                         </div>
                         <button class="plansbutton">Get started</button>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-4 ">
-                  <div class="plans plans--medle d-flex flex-column align-content-between">
+                <div class="col-lg-4 col-xl-4">
+                  <div class="plans plans--last d-flex flex-column align-content-between">
                       <div class="plansDetails">
                           <div class="plansDetailsPrice">
-                              <h4 class="plansDetailsPrice__number">$399</h4>
+                              <h4 class="plansDetailsPrice__number">$499 +</h4>
                               <p class="plansDetailsPrice__design">Per Design</p>
                           </div>
                           <h4 class="plansDetails__name">Landing Page </h4>
-                          <p class="plansDetails__summary">When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help.</p>
+                          <p class="plansDetails__summary">When you’re ready to go beyond prototyping in Figma, </p>
                       </div>
                       <div class="plansItem">
                           <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> All limited links</h5>
@@ -124,177 +144,159 @@
                           <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Chat support</h5>
                           <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Optimize hashtags</h5>
                           <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Unlimited users</h5>
+                          <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Assist and Help</h5>
                       </div>
                       <button class="plansbutton">Get started</button>
                   </div>
               </div>
-              <div class="col-lg-4 col-xl-4">
-                <div class="plans plans--last d-flex flex-column align-content-between">
-                    <div class="plansDetails">
-                        <div class="plansDetailsPrice">
-                            <h4 class="plansDetailsPrice__number">$499 +</h4>
-                            <p class="plansDetailsPrice__design">Per Design</p>
-                        </div>
-                        <h4 class="plansDetails__name">Landing Page </h4>
-                        <p class="plansDetails__summary">When you’re ready to go beyond prototyping in Figma, </p>
-                    </div>
-                    <div class="plansItem">
-                        <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> All limited links</h5>
-                        <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Own analytics platform</h5>
-                        <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Chat support</h5>
-                        <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Optimize hashtags</h5>
-                        <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Unlimited users</h5>
-                        <h5><i class="fa-solid fa-play" style="color: #63e6be;"></i> Assist and Help</h5>
-                    </div>
-                    <button class="plansbutton">Get started</button>
+               </div>
+          </div>
+        </section>
+        <!--======================= plans =======================-->
+        
+        <!--======================= Faq part =======================-->
+        <section id="faqPart">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="faqLeft">
+                  <h3 class="faqLeft__title">Frequently asked questions</h3>
+                  <a class="faqLeft__link" href="">Contact us for more info</a>
                 </div>
-            </div>
-             </div>
-        </div>
-      </section>
-      <!--======================= plans =======================-->
-      
-      <!--======================= Faq part =======================-->
-      <section id="faqPart">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="faqLeft">
-                <h3 class="faqLeft__title">Frequently asked questions</h3>
-                <a class="faqLeft__link" href="">Contact us for more info</a>
               </div>
-            </div>
-            <div class="col-lg-8">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed question__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <span class="count">01</span>  How much v  time does it take?
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body question__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+              <div class="col-lg-8">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+  
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed question__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <span class="count">01</span>  How much v  time does it take?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body question__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
                   </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed question__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    <span class="count">02</span>  What is your class naming convention?
-                    </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body question__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+  
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed question__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <span class="count">02</span>  What is your class naming convention?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body question__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
                   </div>
-                </div>
-                
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed question__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    <span class="count">03</span>  How do you communicate?
-                    </button>
-                  </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body question__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                  
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed question__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <span class="count">03</span>  How do you communicate?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body question__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
                   </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingFour">
-                    <button class="accordion-button collapsed question__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    <span class="count">04</span>  I have a bigger project. Can you handle it?
-                    </button>
-                  </h2>
-                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body question__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+  
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed question__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      <span class="count">04</span>  I have a bigger project. Can you handle it?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body question__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
                   </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingFive">
-                    <button class="accordion-button collapsed question__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                     <span class="count">05</span> What is your class naming convention?
-                    </button>
-                  </h2>
-                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body question__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+  
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button class="accordion-button collapsed question__title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                       <span class="count">05</span> What is your class naming convention?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body question__summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!--======================= faq part =======================-->
-
-      <!--======================= footer part =======================-->
-      <footer id="footerPart">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="footerLeft">
-                <img src="image/navber/navLogo.png" alt="">
-                <p class="footerLeft__summary">We are always open to discuss your project and improve your online presence.
-                </p>
-    
-                <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-11 col-xl-9 p-sm-3 p-0">
-                    <div class="footerLeft__contact">
-                      <div class="row">
-                        <div class="col-6">
-                          <h5 class="footerLeft__contact__name">Email me at</h5>
-                          <p class="footerLeft__contact__email">contact@website.com</p>
-                        </div>
-                        <div class="col-6">
-                          <h5 class="footerLeft__contact__name">Call us</h5>
-                          <p class="footerLeft__contact__email">0927 6277 28525</p>
+        </section>
+        <!--======================= faq part =======================-->
+  
+        <!--======================= footer part =======================-->
+        <footer id="footerPart">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="footerLeft text-center text-lg-start">
+                  <img src="image/navber/navLogo.png" alt="">
+                  <p class="footerLeft__summary">We are always open to discuss your project and improve your online presence.
+                  </p>
+      
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-11 col-xl-9">
+                      <div class="footerLeft__contact mb-lg-0 mb-4 ">
+                        <div class="row">
+                          <div class="col-6">
+                            <h5 class="footerLeft__contact__name">Email me at</h5>
+                            <p class="footerLeft__contact__email">contact@website.com</p>
+                          </div>
+                          <div class="col-6">
+                            <h5 class="footerLeft__contact__name">Call us</h5>
+                            <p class="footerLeft__contact__email">0927 6277 28525</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="footerRight">
-                <h3 class="footerRight__title">Lets Talk!</h3>
-                <p class="footerRight__summary">We are always open to discuss your project, improve your online presence and
-                  help with your UX/UI design challenges.</p>
-                <div class="footerRight__icons d-flex gap-4">
-                  <i class="fa-brands fa-facebook"></i>
-                  <i class="fa-brands fa-twitter"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                  <i class="fa-brands fa-linkedin"></i>
+              <div class="col-lg-6 text-center text-lg-start mb-lg-0 mb-4">
+                <div class="footerRight">
+                  <h3 class="footerRight__title">Lets Talk!</h3>
+                  <p class="footerRight__summary">We are always open to discuss your project, improve your online presence and
+                    help with your UX/UI design challenges.</p>
+                  <div class="footerRight__icons d-flex justify-content-center justify-content-lg-start gap-4">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="footerBottom">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 d-flex justify-content-between footerBottom__details">
-                <a href="policy.html">
-                  <p>Copyright 2022, Finsweet.com</p>
-                </a>
-                <div class="d-flex flex-wrap  buttom-menu">
-                  <a href="index.html">Home</a>
-                  <a href="about.html">About us</a>
-                  <a href="features.html">Features</a>
-                  <a href="pricing.html">Pricing</a>
-                  <a href="faq.html">FAQ</a>
-                  <a href="blog.html">Blog</a>
-                </div>
+          <div class="footerBottom">
+            <div class="container">
+              <div class="footerBottom__details d-flex flex-column flex-lg-row justify-content-lg-between">
+                  <div class="text-center text-lg-start mb-3 mb-md-4 mb-lg-0">
+                    <a href="policy.html">
+                      <p>Copyright 2022, Finsweet.com</p>
+                    </a>
+                  </div>
+                  <div class="">
+                    <ul class="d-flex flex-wrap justify-content-between p-0 m-0">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About us</a></li>
+                      <li><a href="features.html">Features</a></li>
+                      <li><a href="pricing.html">Pricing</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                  </div>
               </div>
             </div>
           </div>
-        </div>
-      </footer>
-      <!--======================= footer part =======================-->
-
-     <!--========== js ===========-->
-     <script src="js/bootstrap.min.js"></script>
-     <!--========== js ===========-->
-</body>
+        </footer>
+        <!--======================= footer part =======================-->
+  
+       <!--========== js ===========-->
+       <script src="js/bootstrap.min.js"></script>
+       <!--========== js ===========-->
+  </body>
 </html>

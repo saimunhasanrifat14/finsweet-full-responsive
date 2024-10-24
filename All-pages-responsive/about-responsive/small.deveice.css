@@ -1,0 +1,68 @@
+@media (max-width: 767.98px) { 
+    :root {
+        --primary_bg_color: #1C1E53;
+        --secondary_bg_color: #F4F6FC;
+        /* --tertiary_bg_color: #F4F6FC; */
+        --white_bg_color: #ffffff;
+        --button_bg_color: #FCD980;
+    
+        --light_text_color: #ffffff;
+        --dark_text_color: #282938;
+        --button_text_color: #1B1C2B;
+        --icon_color: #2405F2;
+    
+        --summary_text_color: #282938;
+        --summary_font_size: 16px;
+        --summary_font_weight: 400;
+        --summary_line_hight: 22px;
+    
+        --heading_font_size: 38px;
+        --heading_font_weight: 600;
+        --headimg_line_hight: 62px;
+    
+        --title_font_size: 32px;
+        --title_font_weight: 600;
+        --title_line_hight: 52px;
+    
+        --sub_title_font_size: 24px;
+        --sub_title_font_weight: 500;
+        --sub_title_line_hight: 48px;
+    }
+    /*============================= about page ==========================*/
+    /******** goal part *******/
+    .goalAreaTop {
+        padding: 70px 50px;
+    }
+    /******** goal part *******/
+    /******** solveing part *******/
+    #solveingPart {
+        padding: 90px 0;
+    }
+    /******** solveing part *******/
+    /******** process part *******/
+    #processPart {
+        padding: 90px 0;
+    }
+    /******** process part *******/
+    /******** mission part *******/
+    #missionPart {
+        padding: 90px 0;
+    }
+    /******** mission part *******/
+    /******** benifit part *******/
+    #benefitPart {
+        padding: 90px 0;
+    }
+    /******** benifit part *******/
+    /******** team part *******/
+    #team {
+        padding: 90px 0;
+    }
+    /******** team part *******/
+    /*************** footer ***********/
+     #footerPart {
+        padding-top: 50px;
+    }
+    /*************** footer ***********/
+    /*============================= about page ==========================*/
+ }

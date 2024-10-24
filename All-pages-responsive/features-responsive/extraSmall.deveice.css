@@ -1,0 +1,117 @@
+@media (max-width: 575.98px) { 
+    :root {
+        --primary_bg_color: #1C1E53;
+        --secondary_bg_color: #F4F6FC;
+        /* --tertiary_bg_color: #F4F6FC; */
+        --white_bg_color: #ffffff;
+        --button_bg_color: #FCD980;
+    
+        --light_text_color: #ffffff;
+        --dark_text_color: #282938;
+        --button_text_color: #1B1C2B;
+        --icon_color: #2405F2;
+    
+        --summary_text_color: #282938;
+        --summary_font_size: 14px;
+        --summary_font_weight: 400;
+        --summary_line_hight: 20px;
+    
+        --heading_font_size: 28px;
+        --heading_font_weight: 600;
+        --headimg_line_hight: 45px;
+    
+        --title_font_size: 24px;
+        --title_font_weight: 600;
+        --title_line_hight: 38px;
+    
+        --sub_title_font_size: 20px;
+        --sub_title_font_weight: 500;
+        --sub_title_line_hight: 48px;
+    }
+    
+    /*============================= feature page ==========================*/
+    /*************** banner ***********/
+    .bannerPart {
+        padding: 50px 0;
+    }
+    /*************** banner ***********/
+    /*************** benifit ***********/
+    #benefitPart {
+        padding: 50px 0;
+    }
+    .benefitBottom__user h4 {
+        font-size: 34px;
+    }
+    /*************** benifit ***********/
+    /*************** proces ***********/
+    .processTop__headimg {
+        font-size: 26px;
+    }
+    /*************** proces ***********/
+    /*************** missin ***********/
+    .missionTopDetails--title {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    #missionOne {
+        padding: 50px 0;
+    }
+    #missionTwo {
+        padding: 50px 0;
+    }
+    #missionThree {
+        padding: 50px 0;
+    }
+    #missionFour {
+        padding: 50px 0;
+    }
+    /*************** missin ***********/
+    /*************** solving ***********/
+    .solveingPartDetails__name {
+        font-size: 16px;
+    }
+    /*************** solving ***********/
+    /*************** faq ***********/
+    .faqLeft__title {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    #faqPart {
+        padding: 50px 0;
+    }
+    .count {
+        font-size: 18px;
+        padding-right: 30px;
+        color: var(--icon_color);
+    }
+    .question__summary {
+        padding: 15px 25px 15px 71px;
+    }
+    .accordion-button {
+        font-size: 16px;
+    }
+    .faqLeft__link {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    /*************** faq ***********/
+        /*************** footer ***********/
+        .buttom-menu {
+            row-gap: 5px;
+            column-gap: 15px;
+        }
+        .footerBottom__details p {
+            font-size: 14px;
+        }
+        .footerBottom__details a{
+            font-size: 14px;
+        }
+        .footerBottom {
+            padding: 20px 0;
+        }
+        .footerLeft__contact__email {
+            font-size: 14px;
+        }
+        /*************** footer ***********/
+    /*============================= feature page ==========================*/
+ }

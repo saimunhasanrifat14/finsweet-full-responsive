@@ -1,0 +1,165 @@
+
+@media (max-width: 991.98px) {
+    :root {
+        --primary_bg_color: #1C1E53;
+        --secondary_bg_color: #F4F6FC;
+        --white_bg_color: #ffffff;
+        --button_bg_color: #FCD980;
+    
+        --light_text_color: #ffffff;
+        --dark_text_color: #282938;
+        --button_text_color: #1B1C2B;
+    
+        --summary_text_color: #282938;
+        --summary_font_size: 16px;
+        --summary_font_weight: 400;
+        --summary_line_hight: 28px;
+    
+        --heading_font_size: 45px;
+        --heading_font_weight: 600;
+        --headimg_line_hight: 76px;
+    
+        --title_font_size: 38px;
+        --title_font_weight: 600;
+        --title_line_hight: 60px;
+    
+        --sub_title_font_size: 32px;
+        --sub_title_font_weight: 500;
+        --sub_title_line_hight: 48px;
+    }
+
+    /*********** navber part **********/
+    .customToggler--button{
+        align-content: center;
+        border-radius: 10px;
+        transition: all ease .3s;
+    }
+    .customToggler--button:hover{
+        background-color: var(--white_bg_color);
+    }
+    .customToggler--button:hover .customToggler--icon{
+        color: var(--dark_text_color);
+    }
+    .customToggler--icon{
+        color: var(--light_text_color);
+        align-content: center;
+        transition: all ease .3s;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .customNavItem{
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px 0;
+        border-radius: 20px;
+        border: solid 2px rgba(244, 246, 252, 0.2);
+        text-align: center;
+        cursor: pointer;
+    }
+    .customNavItem a{
+        color: var(--light_text_color);
+        width: 100%;
+    }
+    .customNavItem:hover{
+        background-color: #171945;
+    }
+    .nav--button{
+        width: 100%;
+        background-color: var(--button_bg_color);
+        color: var(--dark_text_color);
+    }
+    .customNavItem__link{
+        width: 100%;
+    }
+    .customNav {
+        padding: 20px 0 20px 0;
+    }
+   /*********** navber part **********/
+   /*********** banner part **********/
+   .bannerPart {
+       padding: 90px 0;
+   }
+   .customNavItem__btn {
+    padding: 16px 25px;
+}
+   /*********** banner part **********/
+   /*********** work part **********/
+   #workPart {
+    padding: 90px 0;
+}
+    .workRightItem{
+        align-items: center;
+        text-align: center;
+    }
+    .workRightItem__summary {
+        max-width: 100%;
+    }
+    .workLeft__summary {
+        padding: 0;
+    }
+   /*********** work part **********/
+   /*********** project part **********/
+   #projectPart {
+    padding: 90px 0;
+    }
+    /*********** project part **********/
+    /*********** review part **********/
+    #reviewPart {
+        padding: 90px 0px;
+    }
+    /*********** review part **********/
+    /*********** feature part **********/
+    #peaturesPart {
+        padding: 90px 0;
+    }
+    /*********** feature part **********/
+    /*********** faq part **********/
+    #faqPart {
+        padding: 90px 0;
+    }
+    .faqLeft__title {
+        font-size: 36px;
+    }
+    .faqLeft__link {
+        margin-bottom: 30px;
+    }
+    /*********** faq part **********/
+    /*********** contact part **********/
+    .contactRight {
+        padding: 64px 60px 40px 60px;
+        display: flex;
+        row-gap: 16px;
+    }
+    .contactLeftOverlay {
+        padding: 0px 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    /*********** contact part **********/
+    /*********** blog part **********/
+    #blogPart {
+        padding: 90px 0;
+    }
+    /*********** blog part **********/
+    /*********** footer part **********/
+    #footerPart {
+        padding-top: 90px;
+    }
+    .footerRight__summary {
+        padding-right: 0px;
+    }
+    .footerLeft__summary {
+        padding-right: 0px;
+    }
+    .footerLeft__contact {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .footerRight {
+        margin-bottom: 50px;
+    }
+    /*********** footer part **********/
+ }
